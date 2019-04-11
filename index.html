@@ -1,10 +1,125 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
+	<meta charset="UTF-8">
+	<title>Pivot</title>
+	<link rel="stylesheet" type="text/css" href="./indexCSS.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="./indexJS.js"></script>
 </head>
-<body>
-
+<body style="margin: 0;">
+	<div class="container nav-container">
+		<nav class="menu-bar">
+			<div id="topbar" class="row row-nav-top-bar">
+				<div class="col-6 col-info">
+					<label>
+						<i class="fas fa-map-marker-alt"></i>
+						300 COLLINS ST MELBOURNE
+					</label>
+					<label>
+						<i class="far fa-envelope"></i>
+						HELLO@PIVOT.NET
+					</label>
+				</div>
+				<div class="col-6 col-login">
+					<a href="#" class="btn btn-secondary btn-boder-color">LOGIN</a>
+					<a href="#" class="btn btn-secondary btn-full">SIGNUP</a>
+					<a href="#" class="language">
+						<img src="./image/english.png" width="">
+					</a>
+					<a href="#" class="language">
+						<img src="./image/denmark.png">
+					</a>
+				</div>
+				<div class="col-12 col-line-top-bar">
+					<hr>
+				</div>
+			</div>
+			<div id="navbar" class="row row-nav-menu-bar">
+				<div class="col-2 col-logo">
+					<img class="logo" src="./image/logo-dark.png">
+				</div>
+				<div class="col-8 col-menu">
+					<ul class="menu">
+						<li class="list list-menu"><a href="#">HOME PAGES</a></li>
+						<li class="list list-menu"><a href="#">PAGES</a></li>
+						<li class="list list-menu"><a href="#">BLOG</a></li>
+						<li class="list list-menu"><a href="#">PROJECTS</a></li>
+						<li class="list list-menu"><a href="#">CONTACT</a></li>
+					</ul>
+				</div>
+				<div class="col-2 col-menu-social">
+					<ul class="menu-social-icon">
+						<li class="list list-social">
+							<a href="#">
+								<i class="fab fa-twitter"></i>
+							</a>
+						</li>
+						<li class="list list-social">
+							<a href="#">
+								<i class="fab fa-facebook-f	"></i>
+							</a>
+						</li>
+						<li class="list list-social">
+							<a href="#">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<div class="container slideShow-container">
+		<div class="slide fade">
+			<div class="background-image">
+				<img src="./image/hero7.jpg">
+			</div>
+			<div class="slide-content">
+				<div class="row">
+					<div class="col-6 col-slide">
+						<h1>Get ready for the launch of our amazing new template Pivot, You will be awed.</h1>
+						<a class="btn btn-primary btn-boder-white" href="#">Customize Pivot</a>
+						<a class="btn btn-primary btn-full" href="#">Purchase Pivot</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide fade">
+			<div class="background-image">
+				<img src="./image/hero9.jpg">
+			</div>
+			<div class="slide-content">
+				<div class="row">
+					<div class="col-6 col-slide">
+						<h1>Get ready for the launch of our amazing new template Pivot, You will be awed.</h1>
+						<a class="btn btn-primary btn-boder-white" href="#">Customize Pivot</a>
+						<a class="btn btn-primary btn-full" href="#">Purchase Pivot</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slide fade">
+			<div class="background-image">
+				<img src="./image/hero17.jpg">
+			</div>
+			<div class="slide-content">
+				<div class="row">
+					<div class="col-6 col-slide">
+						<h1>Get ready for the launch of our amazing new template Pivot, You will be awed.</h1>
+						<a class="btn btn-primary btn-boder-white" href="#">Customize Pivot</a>
+						<a class="btn btn-primary btn-full" href="#">Purchase Pivot</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="text-align:center">
+		  	<span class="dot" data-last-value="0"></span> 
+		  	<span class="dot" data-last-value="1"></span> 
+		  	<span class="dot" data-last-value="2"></span> 
+		</div>
+	</div>
 </body>
 </html>
