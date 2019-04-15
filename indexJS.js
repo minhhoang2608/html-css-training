@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  // grab the initial top offset of the navigation 
+  // grab the initial top offset of the navigation
         var stickyNavTop = $('#navbar').offset().top;
         
         // our function that decides weather the navigation bar should have "fixed" css position or not.
